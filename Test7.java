@@ -10,18 +10,18 @@ public class Test7{
         System.out.printf("Enter first integer:");
         grade = input.nextInt();
         
-        switch(grade){
-			case 100:
-			case 90 :
+        switch(grade/10){
+			case 9:
+			case 10:
 					System.out.println("A");
 					break;
-			case 80 :
+			case 8 :
 					System.out.println("B");
 					break;
-			case 70 :
+			case 7:
 					System.out.println("C");
 					break;
-			case 60 :
+			case 6 :
 					System.out.println("D");
 					break; 
 			default :
