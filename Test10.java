@@ -5,9 +5,9 @@ public class Test10{
 	    int grade = 0;
 		String space = "" ;
 		while (grade < 10 ){
+			    System.out.printf("%s"    ,space);
 			    System.out.printf("%d %n ",grade);
 				grade = grade + 1 ;
-                System.out.printf(space);
 				space = space + "   "  ;
 		}
    }	
