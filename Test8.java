@@ -9,10 +9,11 @@ public class Test8{
         
         System.out.printf("Enter first integer:");
         grade = input.nextInt();
-     if (grade > 100){ 
-        System.out.println("Please enter again");
+     if (grade > 100 | grade < 0){ 
+        System.out.println("Error");
+		return;
         }     
-	else{
+
         switch(grade/10){
 			case 9:
 			case 10:
@@ -31,5 +32,5 @@ public class Test8{
 					System.out.println("E");
 		}
     }
-  }
+
 }
